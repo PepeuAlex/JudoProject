@@ -1,7 +1,6 @@
 <?php
 define('HOST', 'judo-app-001-271f2b5ac2');
-define('USUARIO', '	
-az_ssl_user');
+define('USUARIO', 'kappa');
 define('SENHA', 'Ped09ale');
 define('DB', 'login');
 
