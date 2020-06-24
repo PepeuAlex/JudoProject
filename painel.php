@@ -24,6 +24,17 @@ session_start();
         <!-- funções Javascript -->
         <script type="text/javascript" src="functions.js"></script>
 
+        <script>
+        function somenteNumeros(num) {
+            var er = /[^0-9.]/;
+            er.lastIndex = 0;
+            var campo = num;
+            if (er.test(campo.value)) {
+              campo.value = "";
+            }
+        }
+        </script>
+
     </head>
     <body>
 
@@ -58,7 +69,7 @@ session_start();
                 <div class="form-group">
                     <label for="txtPhone" class="col-lg-2 control-label">Telefone</label>
                     <div class="col-sm-4">
-                        <input type="text" id="txtPhone" class="form-control" placeholder="Telefone">
+                        <input id="txtPhone" class="form-control" onkeyup="somenteNumeros(this);" type="text"  placeholder="Telefone" />
                     </div>
                 </div>
                 <div class="form-group">
