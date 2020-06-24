@@ -8,6 +8,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <title>Torneio de Judo</title>
+  
   <link rel="stylesheet" href="./style3.css">
 
 </head>
