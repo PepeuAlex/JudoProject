@@ -8,11 +8,18 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <title>Torneio de Judo</title>
-  
   <link rel="stylesheet" href="style3.css">
 
 </head>
 <body>
+      <div id="navigation" class = "navigation"> 
+        <ul>
+          <li><a href = "painel.php">Home</a></li>
+          <li><a href = "logout.php">Sair</a></li>
+          
+        </ul>
+      </div>
+
 <div class="round r-of-4">
   <div class="bracket-game">
     <div class="player top win">
@@ -69,6 +76,8 @@ session_start();
     </div>
   </div>
 </div>
-  
+
+
+
 </body>
 </html>

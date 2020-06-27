@@ -1,9 +1,54 @@
 body {
-    background-image: url('background2.jpg');
-  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-image: url('background2.jpg');
 
+}
+.navigation
+{
+  color: white; 
+  height: 50px;
+  animation-name: navegacao;
+  animation-duration: 1.5s;
+}
+
+.navigation ul
+{
+  margin-top: 0px; 
+  list-style: none;
+  padding-left: 0px;
+  text-align: right;
+  height: 50px;
+  
+}
+
+.navigation li
+{
+  display: inline-block;
+
+  opacity: 0.8;
+  background-color: #2e2d2d;
+  border-radius: 60px;
+  margin-top: 15px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  line-height: 50px;
+  font-size:18px;
+  font-weight: 100; 
+}
+
+.navigation a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover
+{
+  color: #F27609;
 }
 
 .round {
